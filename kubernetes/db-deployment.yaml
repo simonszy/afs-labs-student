@@ -23,6 +23,6 @@ spec:
         - secretRef:
             name: db-secret
         name: db-deployment
-        image: docker harbor.dev.afsmtddso.com/sattipoe-harbor-project/db:3824f10-3824f10
+        image: harbor.dev.afsmtddso.com/sattipoe-harbor-project/db:3824f10-3824f10
         ports:
         - containerPort: 5432
